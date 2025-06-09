@@ -1,0 +1,195 @@
+
+html{
+	color: white;
+	font-family: "Segoe UI", Arial, sans-seif;
+	font-size: 0.9rem;
+}
+
+.whole{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.interface{
+	/*overflow: hidden;*/
+	position: relative;
+	width: 30rem;
+	background-color: black;
+	height: 100%;
+}
+
+.head_box{
+	position: fixed; /*see this*/
+	width: 30rem;/* see this*/
+	background-color: black;
+	top: 0;
+
+}
+
+.heading{
+	/*poisition*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem;
+	top: 0;
+	/*background-color: rgb(0,0,0,0.5);*/
+}
+
+.meme{
+	width: 20rem !important;
+	height:10rem !important;
+	border-radius: 1.5rem !important;
+	padding: 0.5rem !important;
+}
+
+.timeline {
+	display: flex;
+	justify-content: center;
+	gap:5rem;
+	margin-top: 1.5rem;
+	border-bottom: 0.05rem solid #3f3f3f;
+}
+.tweets {
+	margin-top: 6.75rem;
+}
+.tweet{
+	display: flex;
+	padding: 1rem;
+	gap: 0.75rem;
+	border-bottom: 0.015rem solid #3f3f3f;
+
+}
+
+.tweet_details{
+	width:100%;
+}
+
+.user_detials{
+	display: flex;
+	gap:0.5rem;
+}
+.name{
+	font-weight: bold;
+}
+
+.username, .time{
+	color: grey;
+}
+
+.engage{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0.5rem;
+	width: 100%;
+}
+.load_icon{
+	margin-bottom: 4rem;
+}
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: sticky;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	padding: 0.75rem;
+	box-sizing: border-box;
+	border-top: 0.015rem solid #3f3f3f;
+}
+
+/*buttons and icons*/
+.navbar button{
+	border: none;
+	background-color: transparent;
+	color: white;
+	font-size: 1.05rem;
+}
+
+.upgrade{
+	border-radius: 1rem;
+	padding: 0.25rem;
+	width: 4.75rem;
+	background-color: transparent;
+	border: 0.05rem solid #3f3f3f;
+	color: white;
+	font-weight: bold;
+}
+
+.timeline button{
+	border: none;
+	background-color: transparent;
+	color: grey;
+	font-size: 0.85rem;
+	padding:0.5rem;
+	font-weight: bold;
+}
+
+.engage button{
+	color: grey;
+	border: none;
+	background-color: transparent;
+	font-size: 0.8rem;
+}
+
+.profile {
+	background-color: transparent;
+	border: none;
+}
+.profile img {
+	width: 2rem;
+	height: 2rem;
+	border-radius: 2rem;
+}
+
+.tweet img {
+	width: 2rem;
+	height: 2rem;
+	border-radius: 2rem;
+}
+
+.logo {
+	border: none;
+	background-color: transparent;
+	color: white;
+	font-size: 2rem;
+}
+
+.tweet_button{
+	position: fixed;
+	right: 30%;
+	bottom: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	height: 3rem;
+	width: 3rem;
+	border-radius: 3rem;
+	border: none;
+	color: white;
+	font-size: 2.75rem;
+	background-color: #1DA1F2;
+}
+
+.load{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.load button {
+	margin-top: 1rem;
+	width: 1.25rem;
+	height: 1.25rem;
+	border-radius: 1.25rem;
+	background-color: transparent;
+	border: 0.2rem solid #1DA1F2;
+}
+
+/*hover*/
+
+.timeline button:hover, .engage button:hover{
+	color: white;
+}
