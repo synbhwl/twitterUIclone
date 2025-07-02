@@ -2,7 +2,7 @@
 
 A static clone of the modern Twitter (X) mobile interface — built entirely using pure HTML and CSS. This project recreates the dark-themed look of Twitter's 2025 mobile UI as closely as possible without using JavaScript or dynamic rendering.
 
-> Deployed at: [https://yourusername.github.io/twitter-ui-repository](https://yourusername.github.io/twitter-ui-repository)
+> Deployed at: [https://synbhwl.github.io/twitterUIclone/](https://synbhwl.github.io/twitterUIclone/)
 
 
 ## Purpose
