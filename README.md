@@ -1,4 +1,4 @@
-# Twitter UI Repository
+# Twitter UI Clone
 
 A static clone of the modern Twitter (X) mobile interface — built entirely using pure HTML and CSS. This project recreates the dark-themed look of Twitter's 2025 mobile UI as closely as possible without using JavaScript or dynamic rendering.
 
